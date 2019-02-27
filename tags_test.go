@@ -366,6 +366,7 @@ func TestTags_TagResource(t *testing.T) {
 		Resources: []Resource{
 			{ID: "1", Type: DropletResourceType},
 			{ID: "1", Type: ImageResourceType},
+			{ID: "1", Type: LoadBalancerResourceType},
 		},
 	}
 
